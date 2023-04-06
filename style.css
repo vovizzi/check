@@ -1,0 +1,126 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+  
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+  
+ol, ul {
+    list-style: none;
+}
+  
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+    position: relative;
+    background: #1B1966;
+    margin: auto;
+    width: 1200px;
+    height: 873px;
+}
+
+.header-title {
+    display: flex;
+    position: absolute;
+    margin: auto;
+    width: 260px;
+    top: 75.67px;
+    left: 465.27px;
+
+}
+
+.img-logo {
+    width: 55px;
+    height: 55px;
+    margin-right: 8px;
+}
+
+.h1-title {
+    display: flex;
+    align-items: center;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 129.7%;
+    color: #FFFFFF;
+}
+
+.header-text {
+    position: absolute;
+    top: 166px;
+    left: 105.27px;
+    width: 989.46px;
+    height: 139px;
+}
+
+.header-text-first {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 129.02%;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+
+.header-text-second {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 145.38%;
+    /* or 29px */
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+
+.right-image{
+    position: absolute;
+    top: 342.57px;
+    right: 43.91px;
+}
+
+.CRM-right {
+    position: absolute;
+    top: -10px;
+    right: 5px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 244.732px;
+    line-height: 129.7%;
+    color: transparent; /* прозрачный цвет букв */
+    -webkit-text-stroke: 1.5px  #5E5CA4;
+    border: 1.5px solid;
+    transform: rotate(-90deg);
+}
+
+.CRM-left {
+    position: absolute;
+    left: -56.73px;
+    top: 80px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 195px;
+    line-height: 129.7%;
+    color: transparent; /* прозрачный цвет букв */
+    -webkit-text-stroke: 1.5px  #5E5CA4;;
+    border: 1.5px solid black;
+    transform: rotate(-90deg);
+}
