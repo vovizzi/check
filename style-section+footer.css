@@ -1,0 +1,260 @@
+section {
+   display: flex;
+   margin: 21px 0 0 0;
+   min-width: 100%;
+}
+
+.images {
+   margin: 0 0 0 4.9775%;
+   max-height: 324px;
+   min-width: 18.5625rem;
+}
+
+.images h1 {
+   padding-left: 4px;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 2.5rem;
+   line-height: 48px;
+   color: #202020;
+}
+
+.pexels {
+   margin: 30px 0 0 0;
+}
+
+.pexels-block {
+   display: flex
+}
+
+.pexels-logo {
+   width: 2.8125rem;
+   height: 2.8125rem;
+}
+
+.pexels-link {
+   margin: 11px 0 0 11px;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 1.25rem;
+   line-height: 24px;
+   color: #000000;
+   text-decoration: underline 0.095rem;
+   text-underline-offset: 0.25rem;
+}
+
+.pexels-link::after {
+   content: url(img/Vector\ \(3\).svg);
+   height: 0.75rem;
+   width: 0.75rem;
+   padding-left: 0.63rem;
+   background-color: #FFFFFF;
+}
+
+.pexels-text {
+   margin: 15px 0 0 0;
+   max-width: 297px;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 1rem;
+   line-height: 24px;
+   color: #646E79;
+}
+
+.pexels-text a {
+   color:#000000;
+   font-weight: 500;
+}
+
+
+.unsplash {
+   margin: 30px 0 0 0;
+}
+
+.unsplash-block {
+   display: flex
+}
+
+.unsplash-logo {
+   width: 2.8125rem;
+   height: 2.8125rem;
+}
+
+.unsplash-link {
+   margin: 11px 0 0 11px;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 1.25rem;
+   line-height: 24px;
+   color: #000000;
+   text-decoration: underline 0.095rem;
+   text-underline-offset: 0.25rem;
+}
+
+.unsplash-link::after {
+   content: url(img/Vector\ \(3\).svg);
+   height: 0.75rem;
+   width: 0.75rem;
+   padding-left: 0.63rem;
+   background-color: #FFFFFF;
+}
+
+.unsplash-text {
+   margin: 15px 0 0 0;
+   max-width: 297px;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 1rem;
+   line-height: 24px;
+   color: #646E79;
+}
+
+.unsplash-text a {
+   color:#000000;
+   font-weight: 500;
+}
+
+.fonts-jost {
+   margin: 0 0 0 18.5%;
+   max-height: 266px;
+}
+
+.fonts-jost h1 {
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 2.5rem;
+   line-height: 48px;
+}
+
+.opensans {
+   margin: 30px 0 0 0;
+}
+
+.opensans-block {
+   display: flex;
+}
+
+.opensans-logo {
+   width: 2.8125rem;
+   height: 2.1925rem;
+}
+
+.opensans-link {
+   margin: 0 0 0 21px;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 146.5%;
+   color: #000000;
+   text-decoration: none;
+}
+
+.opensans-link::after {
+   content: url(img/Vector\ \(3\).svg);
+   height: 0.75rem;
+   width: 0.75rem;
+   padding-left: 0.63rem;
+   background-color: #FFFFFF;
+}
+
+.opensans-text {
+   margin: 19.92px 0 0 0;
+   max-height: 24px;
+   font-family: 'Lato';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 1rem;
+   line-height: 24px;
+   color:#646E79;
+}
+
+.opensans-text a {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 500;
+   color:#000000;
+}
+
+
+
+.jost {
+   margin: 30px 0 0 0;
+}
+
+.jost-block {
+   display: flex;
+}
+
+.jost-logo {
+   width: 2.8125rem;
+   height: 2.1925rem;
+}
+
+.jost-link {
+   margin: 0 0 0 21px;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 146.5%;
+   color: #000000;
+   text-decoration: none;
+}
+
+.jost-link::after {
+   content: url(img/Vector\ \(3\).svg);
+   height: 0.75rem;
+   width: 0.75rem;
+   padding-left: 0.63rem;
+   background-color: #FFFFFF;
+}
+
+.jost-text {
+   margin: 19.92px 0 0 0;
+   font-family: 'Lato';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 1rem;
+   line-height: 24px;
+   color:#646E79;
+}
+
+.jost-text a {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 500;
+   color:#000000;
+}
+
+
+/* //////////////////////////   FOOTER    ///////////////////////////// */
+
+
+footer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-width: 100%;
+   background: #000000;
+   height: 70px;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 1.25rem;
+   line-height: 119.1%;
+   color:#FFFFFF;
+   margin-top: 50px;
+}
+
+footer a {
+   color: #FFB322;
+}
+
+

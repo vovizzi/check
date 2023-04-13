@@ -1,0 +1,323 @@
+main {
+    background-color: #FFFFFF;
+    min-width:100%;
+    
+    /* z-index:-2; */
+ }
+ 
+ .main-div {
+    display: flex;
+    position: relative;
+ }
+ 
+ .left-main-div {
+    margin: 92px 0 0 4.9775%;
+    max-height: 501px;
+ }
+ 
+ .left-main-div-VF {
+    display: flex;
+    align-items: center;
+    margin: 0 0 49.62px 0;
+    height: 6.3125rem;
+    width: 20.21125rem ;
+ }
+ 
+ .V {
+    width: 6.3125rem;
+    height: 6.3125rem;
+ }
+ 
+ .left-main-div-text {
+    margin: 0 0 0 20px;
+    max-height: 86.31px;
+ }
+ 
+ .left-main-div-text h3 {
+    padding: 0 0 8.31px 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5625rem
+ }
+ 
+ .left-main-div-text p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    max-width: 282px;
+    max-height: 48px;
+ }
+ 
+ 
+ 
+ .follow {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5625rem;
+ }
+ 
+ .instagram {
+    display: flex;
+    margin: 26px 0 0 0;
+ }
+ 
+ .instagram-logo {
+    width: 3.125rem;
+    height: 3.125rem;
+    margin-top: 19px;
+ }
+ 
+ .instagram-text {
+    margin: 0 0 0 2.8125rem;
+ }
+ 
+ .instagram-link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 24px;
+    color: #0D161A;
+    text-decoration: underline;
+    text-underline-offset: 0.3rem;
+ }
+ 
+ .instagram-link::after {
+    content: url(img/Vector\ \(3\).svg);
+    height: 0.75rem;
+    width: 0.75rem;
+    padding-left: 0.63rem;
+    background-color: #FFFFFF;
+ }
+ 
+ .instagram-text-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #646E79;
+    margin: 11px 0 0 0;
+    padding-right: 29.4px;
+ }
+ 
+ 
+ .twitter {
+    display: flex;
+    margin: 29px 0 0 0;
+ }
+ 
+ .twitter-logo {
+    margin: 17px 0 0 0;
+    width: 3.84625rem;
+    height: 3.125rem;
+ }
+ 
+ .twitter-text {
+    margin: 0 0 0 1.71625rem;
+ }
+ 
+ .twitter-link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 24px;
+    color: #0D161A;
+    text-decoration: underline;
+    text-underline-offset: 0.3rem;
+ }
+ 
+ .twitter-link::after {
+    content: url(img/Vector\ \(3\).svg);
+    height: 0.75rem;
+    width: 0.75rem;
+    padding-left: 0.63rem;
+    background-color: #FFFFFF;
+ }
+ 
+ .twitter-text-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #646E79;
+    margin: 11px 0 0 0;
+    padding-right: 29.4px;
+ }
+ 
+ .linkedin {
+    display: flex;
+    margin: 30px 0 0 0;
+ }
+ 
+ 
+ .linkedin-logo {
+    margin: 19px 0 0 0;
+    width: 3.125rem;
+    height: 3.125rem;
+ }
+ 
+ .linkedin-text {
+    margin: 0 0 0 2.8125rem;
+ }
+ 
+ .linkedin-link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 24px;
+    color: #0D161A;
+    text-decoration: underline;
+    text-underline-offset: 0.3rem;
+ }
+ 
+ .linkedin-link::after {
+    content: url(img/Vector\ \(3\).svg);
+    height: 0.75rem;
+    width: 0.75rem;
+    padding-left: 0.63rem;
+    background-color: #FFFFFF;
+ }
+ 
+ .linkedin-text-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #646E79;
+    margin: 11px 0 0 0;
+    padding-right: 29.4px;
+ }
+ 
+ 
+ 
+ .right-main-div {
+   margin: 0 0 0 3.25%;
+   min-width: 51.75%;
+   min-height: 100 ;
+ }
+ 
+ 
+ 
+ .right-main-div h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    margin: 106px 10.17% 0 0
+ }
+ 
+ .div-background-black {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 28.75%;
+    height: 100%;
+    background-color: #0D161A;
+    border-bottom-left-radius: 30px;
+    /* z-index: -1;   */
+ }
+ 
+ 
+ 
+ /* .div-background-white-{
+    width:561px;
+    height: 413px;
+    background-color: rgb(46, 51, 51);
+    border-radius: 20px
+ } */
+ 
+ .div-background-white-files {
+    width: 472px;
+    height: 296px;
+ }
+ 
+ .figma-files {
+    display: flex;
+ }
+ 
+ .figma-logo {
+    height: 5rem;
+    width: 5rem;
+ }
+ 
+ .figma-text {
+    margin: 0 0 0 15px;
+ }
+ 
+ .figma-text-big {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5625rem;
+    color: #0D161A;
+ }
+ 
+ .figma-text-big span {
+    color: #4353FF;
+    font-weight: 700;
+ }
+ 
+ .figma-text-mini {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: #646E79;
+    margin: 10px 0 0 0;
+ }
+ 
+ .webflow-logo {
+    height: 5rem;
+    width: 5rem;
+ }
+ 
+ .webflow-files {
+    display: flex;
+    margin: 41px 0 0 0;
+ }
+ 
+ 
+ .webflow-text-big {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5625rem;
+    line-height: 30px;
+    color: #0D161A;
+ }
+ 
+ .webflow-text {
+    margin: 0 0 0 15px;
+ }
+ 
+ 
+ .get-template {
+    display: flex;
+    flex-direction: column;
+    margin: 23px 15px 0 7px;
+    max-width: 450px;
+    height: 55px;
+    background-color: #4353FF;
+    border-radius: 10px;
+ }
+ 
+ .get-template-link {
+    display: flex;
+    justify-content: center;
+    margin: 12px 0 0 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.375rem;
+    text-align: center;
+    color: #FFFFFF;
+ }
+ 
+ 

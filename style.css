@@ -26,6 +26,7 @@ img {
 
 a:hover {
    background: #a3d4eb; /* Цвет фона */
+   max-height: 25px;
   }
 
 .container {
@@ -42,7 +43,7 @@ header {
     background-color:#1B1966;
     /* min-height: 873px; */
     /* width: 75rem; */
-    /* z-index: -2; */
+    z-index: -2;
 }
 
 
@@ -153,6 +154,7 @@ header {
 main {
    background-color: #FFFFFF;
    min-width:100%;
+   
    /* z-index:-2; */
 }
 
@@ -351,8 +353,8 @@ main {
 
 .right-main-div {
   margin: 0 0 0 3.25%;
-  min-width: 621px;
-  height: 676px;
+  min-width: 51.75%;
+  min-height: 100 ;
 }
 
 
@@ -364,16 +366,16 @@ main {
    margin: 106px 10.17% 0 0
 }
 
-/* .div-background-black {
+.div-background-black {
    position: absolute;
    right: 0;
    top: 0;
    width: 28.75%;
-   height: 77.434%;
+   height: 100%;
    background-color: #0D161A;
    border-bottom-left-radius: 30px;
-   z-index: -1;  
-} */
+   /* z-index: -1;   */
+}
 
 
 
@@ -731,7 +733,7 @@ footer {
 }
 
 footer a {
- color: #FFB322;
+   color: #FFB322;
 }
 
 
