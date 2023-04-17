@@ -1,13 +1,380 @@
-/* 
-@media (max-width: 768px) {
-    :root {
-       font-size: 14px;
+
+                           /* Media for 845px */
+
+@media (max-width: 845px) {
+   .div-background-white{
+      position: relative;
+      top: 27px;
+      left:0;
+      display: flex;
+      justify-content: center;
+      width:90%;
+      height: 61.05%;
+      background-color: white;
+      border: 2px solid #E0E0E0;
+      border-radius: 20px;
+      z-index: 1;
     }
+
+    .div-background-white-files {
+      position: absolute;
+      top: 30px;
+      width: 84.13%;
+      height: 71.67%;
+    }
+
+}
+ 
+
+                           /* Media for 768px */
+
+   @media (max-width: 768px) {
+   html {
+      font-size: 15px;
+   }
+
+      main {
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: center;
+         position: relative;
+         background-color: #FFFFFF;
+         min-width:100%;
+         /* min-height: 676px; */
+         overflow-x: clip;
+      
+      }
+
+
+      .left-main-div {
+         margin: 30px 0 0 4.9775%;
+
+      }
+
+
+      .left-main-div-VF {
+         display: flex;
+         /* align-self: flex-start; */
+         margin: 0 0 29.62px 0;
+         height: 6.3125rem;
+         width: 20.21125rem ;
+      }
+      
+      .V {
+         width: 5.9125rem;
+         height: 5.9125rem;
+      }
+      
+      .left-main-div-text {
+         margin: 0 0 0 20px;
+         max-height: 86.31px;
+      }
+      
+      .left-main-div-text h3 {
+         padding: 0 0 6.31px 0;
+         font-family: 'Inter';
+         font-style: normal;
+         font-weight: 600;
+         font-size: 1.5625rem
+      }
+      
+      .left-main-div-text p {
+         font-family: 'Inter';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 1.25rem;
+         min-width: 19.5rem;
+         min-height: 48px;
+      }
+      
+      
+      
+      .follow {
+         font-family: 'Inter';
+         font-style: normal;
+         font-weight: 700;
+         font-size: 1.5625rem;
+      }
+      
+      .instagram {
+         display: flex;
+         margin: 12px 0 0 0;
+      }
+      
+      .instagram-logo {
+         width: 3.125rem;
+         height: 3.125rem;
+         margin-top: 19px;
+      }
+      
+      .instagram-text {
+         margin: 0 0 0 2.8125rem;
+      }
+      
+      .instagram-link {
+         font-family: 'Inter';
+         font-style: normal;
+         font-weight: 600;
+         font-size: 1.25rem;
+         line-height: 24px;
+         color: #0D161A;
+         text-decoration: underline;
+         text-underline-offset: 0.3rem;
+      }
+      
+      .instagram-link::after {
+         content: url(img/Vector\ \(3\).svg);
+         height: 0.75rem;
+         width: 0.75rem;
+         padding-left: 0.63rem;
+         background-color: #FFFFFF;
+      }
+      
+      .instagram-text-text {
+         font-family: 'Inter';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 1.125rem;
+         line-height: 22px;
+         color: #646E79;
+         margin: 11px 0 0 0;
+         padding-right: 29.4px;
+      }
+      
+      
+      .twitter {
+         display: flex;
+         margin: 29px 0 0 0;
+      }
+      
+      .twitter-logo {
+         margin: 17px 0 0 0;
+         width: 3.84625rem;
+         height: 3.125rem;
+      }
+      
+      .twitter-text {
+         margin: 0 0 0 1.71625rem;
+      }
+      
+      .twitter-link {
+         font-family: 'Inter';
+         font-style: normal;
+         font-weight: 600;
+         font-size: 1.25rem;
+         line-height: 24px;
+         color: #0D161A;
+         text-decoration: underline;
+         text-underline-offset: 0.3rem;
+      }
+      
+      .twitter-link::after {
+         content: url(img/Vector\ \(3\).svg);
+         height: 0.75rem;
+         width: 0.75rem;
+         padding-left: 0.63rem;
+         background-color: #FFFFFF;
+      }
+      
+      .twitter-text-text {
+         font-family: 'Inter';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 1.125rem;
+         line-height: 22px;
+         color: #646E79;
+         margin: 11px 0 0 0;
+         padding-right: 29.4px;
+      }
+      
+      .linkedin {
+         display: flex;
+         margin: 30px 0 0 0;
+      }
+      
+      
+      .linkedin-logo {
+         margin: 19px 0 0 0;
+         width: 3.125rem;
+         height: 3.125rem;
+      }
+      
+      .linkedin-text {
+         margin: 0 0 0 2.8125rem;
+      }
+      
+      .linkedin-link {
+         font-family: 'Inter';
+         font-style: normal;
+         font-weight: 600;
+         font-size: 1.25rem;
+         line-height: 24px;
+         color: #0D161A;
+         text-decoration: underline;
+         text-underline-offset: 0.3rem;
+      }
+      
+      .linkedin-link::after {
+         content: url(img/Vector\ \(3\).svg);
+         height: 0.75rem;
+         width: 0.75rem;
+         padding-left: 0.63rem;
+         background-color: #FFFFFF;
+      }
+      
+      .linkedin-text-text {
+         font-family: 'Inter';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 1.125rem;
+         line-height: 22px;
+         color: #646E79;
+         margin: 11px 0 0 0;
+         padding-right: 29.4px;
+      }
+
+
+
+      .div-background-black {
+      display: none;
+      }
+
+      .right-main-div {
+         position: relative;
+         margin: 0 0 0 0;
+         width: 71.75%;
+         min-width: 350px;
+         min-height: 100%;
+      }
+      
+      .right-main-div h1 {
+         font-family: 'Inter';
+         font-style: normal;
+         font-weight: 700;
+         margin: 30px 0 0 0; 
+      }
+
+      .div-background-white{
+         position: relative;
+         top: 10px;
+         left:0;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         width:100%;
+         min-width: 300px;
+         height: 61.05%;
+         background-color: white;
+         border: 2px solid #E0E0E0;
+         border-radius: 20px;
+         z-index: 1;
+      }
+      
+      .div-background-white-files {
+         position: absolute;
+         width: 84.13%;
+         height: 71.67%;
+      }
+
+      .figma-files {
+         display: flex;
+      }
+      
+      .figma-logo {
+         height: 5rem;
+         width: 5rem;
+      }
+      
+      .figma-text {
+         margin: 0 0 0 15px;
+      }
+      
+      .figma-text-big {
+         font-family: 'Inter';
+         font-style: normal;
+         font-weight: 500;
+         font-size: 1.5625rem;
+         color: #0D161A;
+      }
+      
+      .figma-text-big span {
+         color: #4353FF;
+         font-weight: 700;
+      }
+      
+      .figma-text-mini {
+         font-family: 'Inter';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 1.25rem;
+         color: #646E79;
+         margin: 10px 0 0 0;
+      }
+      
+      .webflow-logo {
+         height: 5rem;
+         width: 5rem;
+      }
+      
+      .webflow-files {
+         display: flex;
+         margin: 41px 0 0 0;
+      }
+      
+      
+      .webflow-text-big {
+         font-family: 'Inter';
+         font-style: normal;
+         font-weight: 700;
+         font-size: 1.5625rem;
+         line-height: 30px;
+         color: #0D161A;
+      }
+      
+      .webflow-text {
+         margin: 0 0 0 15px;
+      }
+      
+      
+      .get-template {
+         display: flex;
+         flex-direction: column;
+         margin: 23px 15px 0 7px;
+         max-width: 95.34%;
+         height: 18.58%;
+         background-color: #4353FF;
+         border-radius: 10px;
+      }
+      
+      .get-template-link {
+         display: flex;
+         justify-content: center;
+         margin: 12px 0 0 0;
+         font-family: 'Inter';
+         font-style: normal;
+         font-weight: 600;
+         font-size: 1.375rem;
+         text-align: center;
+         color: #FFFFFF;
+      }
+      
+
+
+      section {
+         display: none;
+         flex-wrap: wrap;
+         margin: 21px 0 0 0;
+         min-width: 100%;
+         overflow-x: clip;
+      }
+   }
+
+
+
+
+
+
+  @media (max-width: 320px) {
+  
   }
  
-  @media (max-width: 320px) {
-    :root {
-       font-size: 12px;
-    }
-  }
-  */

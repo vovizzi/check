@@ -2,6 +2,7 @@ section {
    display: flex;
    margin: 21px 0 0 0;
    min-width: 100%;
+   overflow-x: clip;
 }
 
 .images {
@@ -92,7 +93,7 @@ section {
    line-height: 24px;
    color: #000000;
    text-decoration: underline 0.095rem;
-   text-underline-offset: 0.25rem;
+   text-underline-offset: 0.3rem;
 }
 
 .unsplash-link::after {
