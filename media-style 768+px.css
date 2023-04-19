@@ -34,36 +34,66 @@
          font-size: 15px;
       }
 
+      header {
+       z-index: 0;
+      }
 
-     /* .overall-image {
+     .overall-image {
          display: contents;
      }
 
      .overall-image-2 {
+         position: relative;
+         left:5.68%;
+         aspect-ratio: 1;
+         width: 90%;
+         margin: 34.57px 0 20px 0;
          display: flex;
+         justify-content: center;
          align-items: center;
-         justify-content: center;
-         margin-top: 10px;
-         background-color: #000000;
-         border-radius:  20px;
+         background-color: #100342;
+         border-radius: 20px;
+         image-rendering:crisp-edges;
      }
 
-     .left-image {
-         margin: 0 auto;
-         position: static;
-         height: auto;
-         max-width: 90%;
-         max-height: 90%;
+     .overall-image-2 .opacity0 {
+         opacity:0
      }
 
-     .right-image{
-         margin: -5 0 0 0;
-         display: flex;
-         justify-content: center;
-         position: static;
-         height: auto;
-         max-width: 90%;
-     } */
+     .overall-image-2 img {
+         position: absolute;
+         top:4.44%;
+         left: 10px;
+         width: 85%;
+         height: 90%;
+         object-fit: cover;
+         opacity:1;
+         transition: all ease 1s;
+         border-radius: 10px;
+         /* left:22%; */
+        
+     }
+
+     .btn-switch {
+         display:block;
+         position: absolute;
+         right: 3%;
+         width: 7.23%;
+         height: 7.23%;
+         border: 3px solid rgb(0, 0, 0);
+         background-color: #E0E0E0;
+         border-radius: 90%;
+     }
+
+
+
+      .CRM-left {
+         display: none;
+      }
+
+      .CRM-right {
+         display: none;
+      }
 
       main {
          display: flex;
@@ -420,9 +450,7 @@
             line-height: 48px;
             color: #202020;
          }
-
-         .pexels-uniplash {
-         }
+         
          
          .pexels {
             display: flex;
@@ -681,12 +709,4 @@
    
 
 
-
-
-
-
-
-  @media (max-width: 320px) {
-  
-  }
  

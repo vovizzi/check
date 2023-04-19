@@ -1,0 +1,131 @@
+@media (max-width: 410px) {
+    html {
+        font-size: 14px;
+     }
+   /* main */
+
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+        background-color: #FFFFFF;
+        min-width:100%;
+        /* min-height: 900px; */
+        overflow-x: clip;
+    }
+
+     .left-main-div-text p {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.25rem;
+        min-width: 5rem;
+        /* min-height: 48px; */
+     }
+
+
+     .div-background-white{
+        margin: 0 auto 0 auto;
+        position: relative;
+        top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+         max-width: 60%;
+        min-height: 100%;
+        background-color: #FFFFFF;
+        border: 2px solid #E0E0E0;
+        border-radius: 20px;
+        margin-bottom: 1px;
+        overflow-x: clip;
+     }
+     
+     .div-background-white-files {
+        position: absolute;
+        width: 74.13%;
+        height: 71%;
+     }
+
+     .figma-files {
+        display: flex;
+     }
+     
+     .figma-logo {
+        height: 4rem;
+        width: 4rem;
+     }
+     
+     .figma-text {
+        margin: 0 0 0 15px;
+     }
+     
+     .figma-text-big {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.5625rem;
+        color: #0D161A;
+     }
+     
+     .figma-text-big span {
+        color: #4353FF;
+        font-weight: 700;
+     }
+     
+     .figma-text-mini {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.25rem;
+        color: #646E79;
+        margin: 10px 0 0 0;
+     }
+     
+     .webflow-logo {
+        height: 4rem;
+        width: 4rem;
+     }
+     
+     .webflow-files {
+        display: flex;
+        margin: 41px 0 0 0;
+     }
+     
+     
+     .webflow-text-big {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.5625rem;
+        line-height: 30px;
+        color: #0D161A;
+     }
+     
+     .webflow-text {
+        margin: 0 0 0 15px;
+     }
+     
+     
+     .get-template {
+        display: flex;
+        flex-direction: column;
+        margin: 23px 15px 0 7px;
+        max-width: 95.34%;
+        height: 18.58%;
+        background-color: #4353FF;
+        border-radius: 10px;
+     }
+     
+     .get-template-link {
+        display: flex;
+        justify-content: center;
+        margin: 12px 0 0 0;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.375rem;
+        text-align: center;
+        color: #FFFFFF;
+     }
+}
