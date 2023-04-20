@@ -60,10 +60,11 @@ button:active {
 
 /* //////////////////////////    HEADER   ///////////////////////////// */
 
+
 header {
   position: relative;
   background-color: #1b1966;
-  z-index: -2;
+  /* z-index: -2; */
 }
 
 .header-title {
@@ -80,7 +81,87 @@ header {
   height: 3.4375em;
 }
 
+.nav {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  min-width: 100%;
+  min-height: 5%;
+}
 
+.nav ul {
+  display: flex;
+  align-items: center;
+  margin: 10px 25px 0 0;
+  background-color: white;
+  border-radius: 8px;
+}
+
+ul li {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  color: black;
+  list-style: none;
+  padding: 0 45px 0 0;
+  font-size: 1.2rem;
+}
+
+ul li:last-child {
+  color: #ffffff;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:127px;
+  height: 56px;
+  border-radius: 6px;
+  background-color: #303030; ;
+  padding: 0;
+}
+
+.burger {
+  display: none;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  z-index:5;
+  width: 30px;
+  height: 18px;
+  margin-right: 10px;
+}
+
+.burger span{
+  height: 2px;
+  width: 100%; 
+  transform: scale(1);
+  background-color: azure;
+}
+
+.burger::before, .burger::after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background-color: azure;
+  transition: all 0.3s ease 0s;
+}
+
+.burger::before { top:0 }
+
+.burger::after { bottom: 0}
+
+.burger.active span {transform: scale(0)}
+
+.burger.active::before {
+    top:50%;
+    transform: rotate(-42deg) translate(0,-50%)
+  }
+
+.burger.active::after {
+    top:50%;
+    transform: rotate(42deg) translate(0,50%)
+}
 .h1-title {
   display: flex;
   align-items: center;

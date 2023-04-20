@@ -25,3 +25,9 @@ console.log(images)
 
 let button = document.querySelector('.btn-switch')
 button.onclick = slider   
+
+
+document.querySelector('.burger').addEventListener('click',function() {
+  this.classList.toggle('active')
+  document.querySelector('.nav').classList.toggle('open')
+})
