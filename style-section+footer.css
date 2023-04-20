@@ -51,6 +51,7 @@ section {
    height: 0.75rem;
    width: 0.75rem;
    padding-left: 0.63rem;
+   border: 3px solid #FFFFFF;
    background-color: #FFFFFF;
 }
 
@@ -101,6 +102,7 @@ section {
    height: 0.75rem;
    width: 0.75rem;
    padding-left: 0.63rem;
+   border: 3px solid #FFFFFF;
    background-color: #FFFFFF;
 }
 
@@ -161,8 +163,8 @@ section {
    content: url(img/Vector\ \(3\).svg);
    /* height: 0.75rem;
    width: 0.75rem; */
-   hover:none;
    padding-left: 0.63rem;
+   border: 3px solid #FFFFFF;
    background-color: #FFFFFF;
 }
 
@@ -215,6 +217,7 @@ section {
    height: 0.75rem;
    width: 0.75rem;
    padding-left: 0.63rem;
+   border: 3px solid #FFFFFF;
    background-color: #FFFFFF;
 }
 
