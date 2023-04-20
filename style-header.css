@@ -40,11 +40,15 @@ img {
 
 a:hover {
   background: #a3d4eb; /* Цвет фона */
-  max-height: 25px;
+  max-height: 23px;
 }
 
 button:hover {
   background-color: #4FFFDF ;
+}
+
+button:active {
+  background-color: #3abea6;
 }
 
 .container {
