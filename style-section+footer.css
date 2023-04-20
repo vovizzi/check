@@ -159,8 +159,9 @@ section {
 
 .opensans-link::after {
    content: url(img/Vector\ \(3\).svg);
-   height: 0.75rem;
-   width: 0.75rem;
+   /* height: 0.75rem;
+   width: 0.75rem; */
+   hover:none;
    padding-left: 0.63rem;
    background-color: #FFFFFF;
 }
