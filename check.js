@@ -22,7 +22,6 @@ console.log(images)
  }
 
  slider()
-//  document.querySelector('.overall-image-2')
 
 let button = document.querySelector('.btn-switch')
-button.onclick = slider
+button.onclick = slider   
