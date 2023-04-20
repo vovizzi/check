@@ -51,6 +51,7 @@ button:active {
   background-color: #3abea6;
 }
 
+
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -79,6 +80,10 @@ header {
   color: #ffffff;
   width: 16.25rem;
   height: 3.4375em;
+}
+
+.open{
+  display: flex !important;
 }
 
 .nav {
