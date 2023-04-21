@@ -65,7 +65,7 @@ button:active {
 header {
   position: relative;
   background-color: #1b1966;
-  /* z-index: -2; */
+  z-index: -2;
 }
 
 .header-title {
@@ -82,9 +82,9 @@ header {
   height: 3.4375em;
 }
 
-.open{
+/* .open{
   display: flex !important;
-}
+} */
 
 .nav {
   display: flex;
